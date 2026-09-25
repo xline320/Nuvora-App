@@ -16,7 +16,8 @@ jobs:
 
       - name: Extract Nuvora project
         run: |
-          unzip -q Nuvora-APK-GitHub-Build.zip -d project
+          unzip -q Nuvora-Android-Project-with-Icon.zip
+          -d project
           find project -maxdepth 3 -type f | head -50
 
       - name: Setup Java
