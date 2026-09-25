@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract Nuvora project
         run: |
-          unzip -q Nuvora-Android-Project-with-Icon.zip
+          unzip -q unzip -q Nuvora-Android-Project.zip
           -d project
           find project -maxdepth 3 -type f | head -50
 
